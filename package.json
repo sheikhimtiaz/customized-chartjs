@@ -1,0 +1,20 @@
+{
+  "name": "customized-chartjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheikhimtiaz/customized-chartjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheikhimtiaz/customized-chartjs/issues"
+  },
+  "homepage": "https://github.com/sheikhimtiaz/customized-chartjs#readme"
+}
