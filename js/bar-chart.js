@@ -1,3 +1,6 @@
+export { ctx, barChart };
+
+
 var ctx = document.getElementById('barChart').getContext('2d');
 
 Chart.defaults.global.defaultFontFamily = 'Lato';

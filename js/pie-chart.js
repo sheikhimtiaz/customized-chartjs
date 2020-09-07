@@ -1,5 +1,7 @@
+export { temp, pieChart };
 
- let pieChart = document.getElementById('pieChart').getContext('2d');
+
+ let temp = document.getElementById('pieChart').getContext('2d');
 
  // Global Options
  Chart.defaults.global.defaultFontFamily = 'Lato';
@@ -7,7 +9,7 @@
  Chart.defaults.global.defaultFontColor = '#777';
 
 
- let PrPopChart = new Chart(pieChart, {
+ let pieChart = new Chart(temp, {
    type:'pie', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
    data:{
      labels:['San Juan', 'Bayamón', 'Carolina', 'Ponce', 'Caguas', 'Guaynabo', 'Mayaguez', 'Trujillo Alto', 'Arecibo', 'Fajardo'],
