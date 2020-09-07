@@ -2,3 +2,9 @@
     height: 400px !important;
     widows: 400px !important;
 }
+
+.c3-xgrid-focus { display: block; }
+
+.c3-ygrid-focus { display: block; }
+
+/* .c3-event-rects { display: none } */

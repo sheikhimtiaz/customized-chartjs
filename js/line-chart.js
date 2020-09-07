@@ -9,7 +9,7 @@ export { lineChart };
 
 
  let lineChart = new Chart(test, {
-   type:'line', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
+   type:'bar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
    data:{
      labels:['San Juan', 'Bayamón', 'Carolina', 'Ponce', 'Caguas', 'Guaynabo', 'Mayaguez', 'Trujillo Alto', 'Arecibo', 'Fajardo'],
      datasets:[{
