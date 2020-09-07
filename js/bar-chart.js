@@ -1,4 +1,4 @@
-export { ctx, barChart };
+export { barChart };
 
 
 var ctx = document.getElementById('barChart').getContext('2d');

@@ -1,4 +1,4 @@
-export { test, lineChart };
+export { lineChart };
 
  let test = document.getElementById('lineChart').getContext('2d');
 

@@ -1,4 +1,4 @@
-export { temp, pieChart };
+export { pieChart };
 
 
  let temp = document.getElementById('pieChart').getContext('2d');
