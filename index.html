@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <script src="js/customized-chat.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title>Customized Chatjs</title>
 </head>
 <body>
-    <canvas id="myChart" width="400" height="400"></canvas>
+    <div class="container">
+        <canvas id="barChart"></canvas>
+    </div>
+
+    <div class="container">
+      <canvas id="pieChart"></canvas>
+    </div>
+
+    <div class="container">
+        <canvas id="lineChart"></canvas>
+      </div>
+  
+
+      <script src="js/bar-chart.js"></script>
+      <script src="js/pie-chart.js"></script>
+      <script src="js/line-chart.js"></script>
 </body>
 </html>
